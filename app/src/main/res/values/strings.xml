@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Donut Chat</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="display_name">Display Name</string>
+    <string name="log_out">log out</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="i_grew_up_on_the_streets_and_learnt_my_ways_from_master_splinter">I grew up on the streets and learnt my ways from master splinter!</string>
+    <string name="ninga">Ninga</string>
+</resources>
