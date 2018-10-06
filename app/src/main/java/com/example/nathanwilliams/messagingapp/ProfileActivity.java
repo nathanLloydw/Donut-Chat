@@ -262,7 +262,7 @@ public class ProfileActivity extends AppCompatActivity
 
                 if(mCurrent_state.equals("req_received"))
                 {
-
+                    // requests
                     final String currentDate = DateFormat.getDateTimeInstance().format(new Date());
 
                     Map friendsMap = new HashMap();
