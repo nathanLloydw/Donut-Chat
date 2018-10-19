@@ -25,6 +25,7 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ServerValue;
 import com.google.firebase.database.ValueEventListener;
+import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -122,6 +123,11 @@ public class ChatActivity extends AppCompatActivity
             {
                 String online = dataSnapshot.child("online").getValue().toString();
                 String image = dataSnapshot.child("image").getValue().toString();
+
+                if(!image.equals("default"))
+                {
+                    Picasso.get().load(image).placeholder(R.drawable.avatar).into(mProfileImage);
+                }
 
                 if(online.equals("true"))
                 {
